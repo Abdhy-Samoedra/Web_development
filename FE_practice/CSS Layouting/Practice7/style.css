@@ -1,0 +1,84 @@
+/* float merupakan properti untuk mengatur posisi elemen
+ada 3 nilai yang bisa digunakan yaitu left, right, dan nonea 
+float merupakan tipe out of flow sedangkan yang lainnya seperti box merupakan normal flow*/
+
+/* dikatakan normal flow apabila akan secara otomatis menjadi newline ketikaditambahkan elemen baru */
+
+/* penggunaan float
+1 text wrapping
+2 image gallery
+3 multi collumn layout */
+
+/* agar padding tidak mempengaruhi ukuran elemen maka gunakan box-sizing: border-box; */
+
+
+.container {
+    width: 800px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 5px;
+}
+
+.satu,
+.dua,
+.tiga {
+    width: 100px;
+    height: 100px;
+}
+
+.satu {
+    background-color: salmon;
+}
+
+.dua {
+    background-color: limegreen;
+    float: right;
+}
+
+.tiga {
+    background-color: blueviolet;
+}
+
+.container img {
+    width: 200px;
+    /* float: left; */
+    float: right;
+}
+
+.kotak {
+    width: 80px;
+    height: 80px;
+    color: white;
+    background-color: salmon;
+    text-align: center;
+    line-height: 80px;
+    font-size: 32px;
+    margin: 2px;
+    float: left;
+}
+
+
+/* width jika dijumlah menjadi 800 berdasarkan width parent */
+.kiri {
+    width: 150px;
+    background-color: salmon;
+    height: 500px;
+    float: left;
+}
+
+.tengah {
+    width: 500px;
+    background-color: greenyellow;
+    height: 500px;
+    float: left;
+}
+
+.kanan {
+    width: 150px;
+    background-color: blueviolet;
+    height: 500px;
+    float: left;
+}
+.clear {
+    clear: both;
+}   

@@ -1,0 +1,55 @@
+body{
+    height: 2000px;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.satu {
+    background-color: lightblue;
+}
+
+
+.dua {
+    background-color: lightgreen;
+
+    /* menggeser dengan margin, namun apabila menggunakan margin akan mempengaruhi posisi objek lainnya */
+    /* margin-left: 200px;
+    margin-top: 200px; */
+    
+    /* dengan position; */
+    /* position: relative;
+    top: 300px; */
+/* 
+    position: absolute;
+    top: 0px;
+    left: 0px; */
+    position: fixed;
+    top: 0px;
+    right: 0px;
+
+}
+
+.tiga {
+    background-color: lightpink;
+}
+
+.container{
+    width: 600px;
+    height: 650px;
+    border: 4px solid black;
+
+    /* agar maju 1 dimensi */
+    position: relative;
+}
+
+/* agar tidak mempengaruhi elemen sekitar maka menggunakan properti position */
+/* position ada 4 :
+1. static : jika tidak memberikan position pada elemen maka defaultnya adalah static
+2. relative : akan maju 1 dimensi ,bergerak relative terhadap posisi elemen sebelumnya, tempat sebelumnya tidak hilang/masih ada
+3. absolute : akan maju 1 dimensi, tempat sebelumnya hilang, bergerak relative terhadap parent terdekat   
+4. fixed  :bergerak relatif  terhadap window browser, danjuga tidak akan bergerak ketika di scroll/
+

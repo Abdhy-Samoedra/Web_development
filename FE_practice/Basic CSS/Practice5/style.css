@@ -1,0 +1,49 @@
+/* pada css selector dapat menggunakan id, class, tag, dan element html */
+
+
+/* tag html/element hml */
+body{
+    font-family: Arial;
+}
+
+
+/* jika ada style yang sama dapat diasatukan dengan cara dibawah */
+h1 , h2{
+    color: red;
+    text-align: center;
+}
+h2{
+    font-style: italic;
+}
+
+ol{
+    color: antiquewhite;
+}
+
+/* untuk menunjuk posisi atau letak yang ingun diberikan style secara spesifik dapat dengan cara */
+ul li a{
+    color: red;
+}
+
+/* dengan id */
+#p1{
+    color: blue;
+}
+
+/* dengan class */
+.p2{
+    color: brown;
+}
+
+.tebal
+{
+    font-weight: bold
+}
+
+p.tebal{
+    font-size: 40px;
+}
+/* note
+lebi baik menggunakan tag html/elemen html
+baru kalau memang tidak bisa menggunakan elemen html, maka menggunakan class dan hindari
+penggunaan id dalam css karen berat dan tidak efektif */

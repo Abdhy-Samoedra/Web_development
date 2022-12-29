@@ -1,0 +1,28 @@
+/* terdapat 4 macam display
+1 inline : tidak menambahkan baris baru ketika dibuat,lebar dan tinggi tidak bisa diatur
+2 inline-block : tidak menambahkan baris baru ketika dibuat,lebar dan tinggi bisa diatur 
+3 block : secara default menambahkan baris baru
+4 none : digunakan untuk menghilangkan elemen*/
+
+.main{
+    width: 600px;
+    background-color: aqua;
+}
+
+.main h2{
+    background-color: blueviolet;
+}
+.main span{
+    background-color: blue;
+}
+
+a{
+    background-color: blanchedalmond;
+    width: 200px;
+    height: 100px;
+    /* dikasih display inline-block agar bisa diatur lebarnya tingginya */
+    display: inline-block;
+}
+.copyright{
+    display: none;
+}

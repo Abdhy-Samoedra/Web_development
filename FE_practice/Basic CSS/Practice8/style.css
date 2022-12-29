@@ -1,0 +1,21 @@
+/* disini yang akan dieksekusi adalah #p1 karena lebih spesisfik dari pada hanya p */
+#p1{
+    color: aquamarine;
+}
+p{
+    color: red;
+}
+
+
+
+ul#sarapan li{
+    color: magenta;
+}
+.favorit{
+    color: brown;
+}
+/* menjadi warna magenta semua karena .favorit kurang spesifik */
+
+ul#sarapan li.favorit{
+    color: brown;
+}

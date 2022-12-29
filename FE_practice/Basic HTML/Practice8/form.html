@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- macam macam form dan yang terdapat di dalamnya -->
+    <form>
+        <!-- 1.input text -->
+        <label for="username">Username :</label>
+        <input type="text" id="username">
+        <br><br>
+        <!-- 2.input password     -->
+        <label for="password">Password :</label>
+        <input type="password" id="password">
+        <br><br>
+        <!-- 3.input radio button -->
+        <input type="radio" id="pria" name="kelamin"><label for="pria">Pria</label>
+        <input type="radio" id="wanita" name="kelamin"><label for="wanita">Wanita</label>
+        <!-- name disini digunakan untuk mengelompokkan radio button, agar hanya satu yang bisa dipilih -->
+        <br><br>
+        <!-- 4.input checkbox -->
+        <input type="checkbox" id="menyanyi"><label for="menyanyi">Menyanyi</label>
+        <input type="checkbox" id="lari"><label for="lari">Lari</label>
+        <input type="checkbox" id="mancing"><label for="mancing">mancing</label>
+        <input type="checkbox" id="baca"><label for="baca">Membaca</label>
+        <br><br>
+        <!-- 5. textarea -->
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br><br>
+        <!-- 6.select/dropdown -->
+        <label for="kota">kota</label>
+        <select id="kota">
+            <option>jakarta</option>
+            <option>bekasi</option>
+            <option>bandung</option>
+        </select>
+        <br><br>
+        <!-- . button submit -->
+        <button type="submit">Kirim</button>
+    </form>
+</body>
+
+</html>

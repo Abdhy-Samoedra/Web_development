@@ -1,0 +1,66 @@
+/*macam macam pseudoclass
+1 pseudoclass yagn berhubungan dengan link
+a :link : ketika link belum dikunjungi
+b :visited : ketika link sudah dikunjungi
+c :hover : ketika menempatkan mouse diatas bagianya
+d :active : ketika menekan linknya*/
+.hello {
+    color: orange;
+    font-size: 20px;
+}
+
+.hello:hover{
+    font-family: Arial;
+    font-size: 40px;
+    color: aquamarine;
+}
+
+.hello:active{
+    color: red;
+    font-size: 60px;
+}
+.hello:visited{
+    color: blue;
+    font-size: 80px;
+}
+
+/* 2 pseudoclass yang berhubungan dengan posisi elemen
+a :first-child : elemen pertama
+b :last-child : elemen terakhir
+c :nth-child(n) : elemen ke n 
+hanya akan aktif ketika sebuah elemen merupakan anak dari elemen lainnya
+contoh
+<li> child dari <ul> dan <a> anak dari <ul>*/
+
+li:first-child a{
+    color: red;
+}
+li:last-child a{
+    color: yellow;
+}
+li:nth-child(4) a{
+    color: yellow;
+}
+li:nth-child(3n-2) a{
+    color: magenta;
+}
+li:nth-child(even) a{
+    color: magenta;
+}
+li:nth-child(odd) a{
+    color: yellow;
+}
+li:nth-child(odd) a:hover{
+    color: greenyellow;
+}
+
+/* 3 pseudoclass yang berhubungan dengan posisi ::-webkit-progress-inner-element
+a :first-of-type : elemen pertama dari suatu jenis
+b :last-of-type : elemen terakhir dari suatu jenis */
+
+p:first-of-type{
+    color: red;
+}
+p:last-of-type{
+    color: yellow;
+}

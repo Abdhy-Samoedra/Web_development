@@ -1,0 +1,32 @@
+/* Overflow
+1 visible : default/jika konten melebihi batas parent, maka akan muncul di luar parent
+2 hidden : jika konten melebihi batas parent, maka akan terpotong/disembunyikan
+3 scroll : akan menamhakan scroll jika sudah tidak cukup, namun scroll akan tetap ada jika cukup
+4 auto : otomatis menambahkan scroll jika sudah tidak cukup, namun scroll akan hilan jika cukup*/
+
+/* div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+} */
+
+.satu {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.dua {
+    /* 50% relatif terhadap parent nya yaitu .satu */
+    width: 50%;
+    background-color: blue;
+}
+.paragraf {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /* overflow: visible; */
+    /* overflow: auto; */
+    /* overflow: hidden; */
+    overflow: scroll;
+}

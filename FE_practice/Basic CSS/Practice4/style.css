@@ -1,0 +1,7 @@
+body{
+    background-color: aquamarine;
+    background-image: url(bg2.jpg);
+    background-repeat: no-repeat;
+    /* background-position: hanya bisa digunakan jika no reepat  */
+    background-position: center;
+}

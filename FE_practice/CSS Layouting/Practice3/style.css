@@ -1,0 +1,44 @@
+/* div {
+    display: inline-block;
+} */
+
+.satu {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+
+    /* margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    */
+    /* margin-right: 50px; */
+
+    /* auto akan membuat elemen berada pada tengah tengah parenntanya */
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.dua {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* margin-top: 50px; */
+
+    /* margin-left: 50px; */
+}
+
+.tiga {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+}
+
+
+/* margin overlapping
+1. vertikal : tidak berpengaruh pada margin (mengambil yang paling besar) 
+misal , margin-top: 50px dan margin-bottom: 150px maka yang diambil adalah 150px
+2. horizontal : akan menjumlahkan antara kanan dan kirinya 
+misal , margin-right: 50px dan margin-left: 50px maka akan dijumlahkan*/
+
+/* margin juga bisa negatif */

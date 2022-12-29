@@ -1,0 +1,19 @@
+/* font-family : jenis font
+font-size : ukuran font
+font-weight : tebal font
+font-varian : mengubah fint menjadu small/caps
+font-style : mengubah font menjadi italic
+line-height : jarak antar baris */
+
+h1{
+    font-family: Arial,verdana, sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-style: italic;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aquamarine;
+    line-height: 50px;
+}
