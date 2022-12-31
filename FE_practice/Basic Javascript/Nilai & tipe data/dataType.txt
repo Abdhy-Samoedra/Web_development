@@ -1,0 +1,25 @@
+dalam JS terdapat 7 tipe data yaitu:
+1. Number
+dalam JS tipe data number tidaka ada integer atau float atau double
+yang ada adalah floating point , dengan size yang dapat ditampung adalah 64 bit/2^64
+koma untuk pecahan dalam JS dilambangkna dengan titik. namun dalam JS perhitungan pecahan atau desimal terkadang tidak akurat dengan tingkat akurasi biasanya errro sangat kecil
+jangan mengawali angka dalam JS dengan 0 karena akan dianggap sebagai bilangan oktal
+bilangan dalam JS direpresantisikan dalam bentuk IEEE754 dengan AbortSignal,eksponen,fraction
+terdapat angka spesial : infinity(n/0), -infinity(-n/0), NaN(not a number)(0/0)
+namun pada JS apabila terdapt angka dan dilakukan operasi dengan string dimana string tersebut merupakan angka 
+maka angka tersebut akan tetap diproses dan akan menghasilkan angka
+2. String 
+dalam JS penulisan string menggunakan '' atau "" sama saja
+penulisan nya bisa seperti ini
+"saya pulang hari jum'at"
+'saya baca buku berjudul "aku kamu"'
+'saya baca buku berjudul "aku kamu" dihari jum\'at' pemberian \ agar terbaca dan tidak error
+\n = new line
+menghitung length misal , "abdhy samoedra".length maka output 14
+3. Boolean
+4. Undefined : ketika membuat sebuah variabel namun belum mengisikan nilaui pada variabel tersebiut
+5. Null : nilai kosong yang dapat diisikan kedalam variabel
+6. Object
+7. Symbol
+8. function
+

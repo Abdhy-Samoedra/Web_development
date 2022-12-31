@@ -1,0 +1,11 @@
+terdapat 3 kelompok operator
+A. Binary
+1. aritmatika
+2. penugasan
+3. perbadingan
+4. logika
+5. string : untuk menggandeng string, menggunaakn simbol +, misal "aku" + "kamu" jadi akukamu
+B. Ternary
+1. Kondisional
+C. Unary
+1. typeof : untuk mengetahui type datanya, misal typeof(10) maka hasilnya akan number
