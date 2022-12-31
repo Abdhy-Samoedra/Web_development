@@ -37,4 +37,4 @@ if (komputer == p) {
     }
 }
 
-alert('kamu memilih ' + p + 'dan komputer memilih ' + komputer + 'hasilnya adalah' + hasil);
+alert('kamu memilih ' + p + 'dan komputer memilih ' + komputer+'hasilnya adalah'+hasil);
