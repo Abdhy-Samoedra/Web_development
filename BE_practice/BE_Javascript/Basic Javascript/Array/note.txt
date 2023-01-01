@@ -1,0 +1,11 @@
+1. dalam JS sebuah array boleh memiliki tipe data yang berbeda
+misal : var data = ['satu',1,true]
+2. dalam JS function juga bisa dimasukkan ke dalam array misal
+
+var fungsi = function(){
+    alert('hello world);
+};
+maka : var data = ['satu',1,true,funsi];
+3. dalam JS kita bisa menyimpab array didalam array
+misal : var data = ['satu',1,true,[2,3,4]];
+dan dalam JS array merupakan object

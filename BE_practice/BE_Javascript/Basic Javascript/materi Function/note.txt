@@ -1,0 +1,30 @@
+1. dalam JS apabila jumlah argument lebih banyak dari pada jumlah parameternya, akan tidak berpengaruh dan sisa argumen yang tidak dipakai akan diabaikan
+misal:
+function coba(a,b){
+    return a*b;
+}
+var tambah = coba(30,55,32);
+maka 32 akan diabaikan karena parameter hanya butuh 2 nilai terdepan saja
+
+2. jika parameter lebih banyak daripada argumen mala parameter yang kosong akan diisi dengan nilai undefined
+misal:
+function coba(a,b,c,d){
+    return a*b*c*d;
+}
+var tambah = coba(30,55,32);
+maka d akan berisi undefined
+
+javascript mengaanut asas function scope 
+
+dalam JS penempatan function tidak berpengaruh mau diatas baris utama ataupun dibahawahnya
+karena menganut konsep hoisting dimana funstion akan disimpan terlebih dahulu dalm memori
+terdapat 2 jenis function yaitu expression dan declaration
+declaration : merupakan funstion biasa dan bisa menerapkan konsep hoisting diatas
+expression : funstion yang harus dimasukkan dulu kedalam variabel, tidak menganit konsep hoisting
+dimana kita berarti harus mendeklarasikannya terlebih dahulu sebelum memakai, lebih powerfull
+contoh expression
+var pesan = function(nama){
+    alert('halo'+nama);
+}
+pesan('abdhy');
+function expression lebih powerfull dan modern dan juga sudah banyak dipakai dalam framework
