@@ -1,0 +1,17 @@
+ object merupakan kumpulan nilai yang tidak memiliki index namun memiliki nama
+ versi lwbih saktinya dari array
+ object merupakan hal yang vital didalam JS
+
+ anatomi object
+ contoh object
+ var Orang = {
+    *properti (variabel yang berada diddalam obejct)*
+    nama : 'abdhy samoedra',
+    umur : 20,
+    pekerjaan : mahasiswa,
+    *method (function yang berada didalam object)*
+    halo : function(){
+        return ' hi, nama saya ' + this.nama + 'usia saya'
+        + this.umur + 'tahun' + 'saya bekerja sebagai'+this.pekerjaan;
+    }
+ }

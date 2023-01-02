@@ -97,9 +97,19 @@
 // console.log(fruits);
 // 7. filter and find : find(mengembalikan 1 nilai),filter(mengembalikan banyak nilai)
 // a. filter : semacam search yang bisa mengembalikan banyak nilai, contoh:
-var angka = [4,6,10,20,60,8,2,4,7,0,4,2];
-var angka2 = angka.filter(function (a) {
-    // return a == 7;
-    return a >=4
-})
-console.log(angka2);
+// var angka = [4,6,10,20,60,8,2,4,7,0,4,2];
+// var angka2 = angka.filter(function (a) {
+//     // return a == 7;
+//     return a >=4
+// })
+// console.log(angka2);
+// var angka = [4,6,10,20,60,8,2,4,7,0,4,2];
+// var angka2 = angka.find(function (a) {
+//     return a==00;
+// })
+// console.log(angka2);
+var penumpang = ['sari'];
+var cari = penumpang.find(function (penumpang) {
+    return penumpang == 'rusi';
+});
+console.log(cari);
