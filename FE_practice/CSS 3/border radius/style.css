@@ -1,0 +1,27 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    /* border-radius: 16px; */
+    /* agar border radius nya menjadi lingkaran */
+    /* border-radius: 50%; */
+    /* agar border radius salah satu sisi saja */
+    /* border-top-right-radius: 50%;
+    border-top-left-radius: 50%; */
+    border-radius: 0 50% 0 50%;
+    text-align: center;
+    /* mengakali agar center dari atas dengan cara line height = heighnya */
+    /* line-height: 200px; */
+
+    /* agar gambar bisa masuk kedalam kotak */
+    /* background-image: url(aku.png);
+    background-size:cover ; */
+
+    /* jika gambar dimasukkan lewat file html namun tetap seperti gambar masuk kedalam kotak,apapun yang melebihi kotak akana disembunyikan */
+    overflow: hidden;
+}
+div img{
+    width: 200px;
+    height: 200px;
+
+}

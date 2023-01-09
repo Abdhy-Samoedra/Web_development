@@ -1,0 +1,18 @@
+/* radial gradient bukan property css3, melainkan value untuk bg image */
+div {
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    /* background-image: radial-gradient(red, green); */
+    /* bisa memakai colorstop juga */
+    /* mirip dengan linear gradient */
+    /* yang memnbedakan dengan linear adalah seperti berikut : */
+    /* syntax lengkap :  */
+    /* radial-gradient(tipe jangkauan at posisi x posisi y, warna1,warna2,...) */
+    /* gak dicantumkan semua gpp */
+    /* tipe = circle,ellips
+    jangkauan = jarak dari pusat grdient ke sisi luar
+    syntaxny : closest-corner,closest-side,farthest-corner,farthest-side */
+    /* posisi = memindahkan pusat circle */
+    background: radial-gradient(circle farthest-side at top left,red,blue);
+}

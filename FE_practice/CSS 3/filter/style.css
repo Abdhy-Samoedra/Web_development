@@ -1,0 +1,6 @@
+body{
+    text-align: center;
+}
+img{
+    filter: blur(40px) grayscale(); 
+}

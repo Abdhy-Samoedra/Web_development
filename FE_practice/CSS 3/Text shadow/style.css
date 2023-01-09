@@ -1,0 +1,15 @@
+div{
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: aqua;
+    /* urutan text shadow = a,b,c,d
+    a = x offset = mengatur jarak bayangan horizontal
+    b = y offset = mengatur jarak bayangan vertikal
+    c = blur
+    d = color 
+    juga bisa multiple shadow*/
+    text-shadow: 0px -50px 70px rgba(231, 80, 80, 0.8),0px -100px 70px rgba(200, 127, 55, 0.8);
+
+}

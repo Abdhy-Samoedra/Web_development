@@ -1,0 +1,13 @@
+/* linear gradient bukan property css3, melainkan value untuk bg image */
+div {
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    /* menentukan arah bisa pakai derajat */
+    /* background-image: linear-gradient(130deg ,red, green,#445bad); */
+    /* bisa juga pakai arah */
+    /* background-image: linear-gradient(to left ,red, green,#445bad); */
+    /* background-image: linear-gradient(to bottom left ,red, green,#445bad); */
+    /* pengunaan color stop */
+    background-image: linear-gradient(130deg ,red, green 63%,#445bad 40%);
+}

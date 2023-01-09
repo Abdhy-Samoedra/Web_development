@@ -1,0 +1,13 @@
+@font-face {
+    font-family:"SpaceGrotesk";
+    src: url('font/SpaceGrotesk-VariableFont_wght.ttf') format('truetype');
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+    font-family: "SpaceGrotesk";
+
+}
+
+/* jenis file font yang baik untuk web adalah .woff */
+/* untuk mengubah ttf ke woff menggunakan web font generator di chrome */

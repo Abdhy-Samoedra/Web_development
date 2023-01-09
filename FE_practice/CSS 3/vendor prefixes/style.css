@@ -1,0 +1,13 @@
+/* merupakan syntax khusus untuk css3 agar dapat berjalan disemua browser */
+/* -webkit- : untuk chrome,safari,opera versi baru
+- moz- : firefox
+-ms- : intermnet explorer
+-o-:opera versi terdahulu */
+/* syntaxnya : misal webkit */
+/* :-webkit-any() */
+body{
+    text-align: center;
+}
+img{
+    filter: grayscale();
+}
