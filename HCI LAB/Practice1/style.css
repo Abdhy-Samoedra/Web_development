@@ -1,0 +1,9 @@
+body{
+    
+}
+#jumbotron1{
+    background-image: url(assets/onepiece.jpg);
+    background-size: cover;
+    /* background-position: center; */
+
+}

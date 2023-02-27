@@ -6,8 +6,8 @@ div {
     /* menentukan arah bisa pakai derajat */
     /* background-image: linear-gradient(130deg ,red, green,#445bad); */
     /* bisa juga pakai arah */
-    /* background-image: linear-gradient(to left ,red, green,#445bad); */
+    background-image: linear-gradient(red, green,#445bad);
     /* background-image: linear-gradient(to bottom left ,red, green,#445bad); */
     /* pengunaan color stop */
-    background-image: linear-gradient(130deg ,red, green 63%,#445bad 40%);
+    /* background-image: linear-gradient(130deg ,red, green 63%,#445bad 40%); */
 }
